@@ -162,7 +162,7 @@ h1{
   border-radius: 3px;
 }
 
-/* Lower Section of the page containing the form and interactivity */
+/* Middle Section of the page containing the form and interactivity */
 
 /***** FORM *****/
 .add {
@@ -252,72 +252,6 @@ h1{
   outline: none;
 }
 
-/*Pie chart formatting added by Ana D
-====
-  Pie chart formatting added by Ana D
-.figure{
-  table-layout:auto;
-  position: left;
-}
->>>>>>> ee3d23d2ff4ea072c8c928393d726e312b2b39ed
-   .pie-chart {
-    background:
-      radial-gradient(
-        circle closest-side,
-        transparent 61%,
-        white 0
-      ),
-      conic-gradient(
-        from 60deg,
-        #f28e2c 0,
-        #f28e2c 31.9%,
-        #e15759 0,
-        #e15759 54.1%,
-        #76b7b2 0,
-        #76b7b2 68%,
-        #4b4e4b 0,
-        #59a14f 76.3%,
-        #edc949 0,
-        #edc949 86%,
-        #c9bd92 0,
-        #c9bd92 99.9%
-    );
-    position: relative;
-    width: 500px;
-    min-height: 350px;
-    margin: 0;
-    outline: 1px solid white;
-
-  }
-  .pie-chart h2 {
-    position: absolute;
-    margin: 1rem;
-  }
-  .pie-chart cite {
-    position: absolute;
-    bottom: 0;
-    font-size: 80%;
-    padding: 1rem;
-    color: gray;
-  }
-  .pie-chart figcaption {
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    font-size: smaller;
-    text-align: right;
-  }
-  .pie-chart span:after {
-    display: inline-block;
-    content: "";
-    width: 0.8em;
-    height: 0.8em;
-    margin-left: 0.4em;
-    height: 0.8em;
-    border-radius: 0.2em;
-    background: currentColor;
-  }*/
-  
 /***** LISTS *****/
 .container {
   display: flex;
@@ -373,9 +307,6 @@ h2 {
   padding-top: 1px;
 }
 
-/*.item:nth-child(even) {
-  background-color: #fff7e6;
-}*/
 
 .item__description {
   float: left;
@@ -386,17 +317,6 @@ h2 {
   transition: transform 0.3s;
 }
 
-/*.item__percentage {
-  float: left;
-  margin-left: 20px;
-  transition: transform 0.3s;
-  font-size: 11px;
-  background-color: #ffdad9;
-  padding: 3px;
-  border-radius: 3px;
-  width: 32px;
-  text-align: center;
-}*/
 
 .income .item__value,
 .income .item__delete--btn {
